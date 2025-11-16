@@ -29,16 +29,6 @@ class Coche:
     
     def set_marca(self, marca): # Metodo para modificar la marca
         self._marca = marca
-    
-    def get_modelo(self): # Metodo para leer el modelo
-        return self._modelo # Retornamos el valor del modelo
-    
-    def set_modelo(self, modelo): # Metodo para modificar el modelo
-        self._modelo = modelo
-
-    def get_color(self): # Metodo para leer el color
-        return self._color # Retornamos el valor de color
-    
     def set_color(self, color): # Metodo para modificar el color
         self._color = color
         

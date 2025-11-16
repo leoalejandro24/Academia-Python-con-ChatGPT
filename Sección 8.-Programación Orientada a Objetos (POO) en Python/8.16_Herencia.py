@@ -21,4 +21,11 @@ animal1 = Animal()
 animal1.comer()
 animal1.dormir()
 
+print("\n Clase hija, soy un Perro")
+
+perro1 = Perro()
+
+perro1.comer() # Puedo heredar el metodo de la clase Padre
+perro1.dormir() # Puedo heredar el metodo de la clase Padre
+perro1.hacer_sonido() # Ademas el metodo de la clase misma.
     
