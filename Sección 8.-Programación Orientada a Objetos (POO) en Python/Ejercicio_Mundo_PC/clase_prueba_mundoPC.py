@@ -27,10 +27,3 @@ monitor3 = Monitor('Dell', 27)
 computadora3 = Computadora('Dell', monitor3, teclado3, raton3)
 orden1.agregar_computadoras(computadora3)
 print(orden1)
-
-class HolaMundo:
-    
-    def saludar():
-        return "Saludos desde Python"
-    
-HolaMundo.saludar()
